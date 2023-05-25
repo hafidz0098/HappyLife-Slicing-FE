@@ -244,3 +244,44 @@ button .navbar-toggler-icon{
   .footer .copyright {
     text-align: center;
   }
+
+  @media only screen and (max-width: 992px) {
+    .col-img{
+        width: 0%;
+    }
+    .row{
+        margin-top: -80px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .artikel{
+      margin-bottom: 40px;
+    }
+
+    .footer .container{
+      padding-top: 50px;
+      
+    }
+
+    .card-img img{
+      height: 50%;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+  
+    .footer-info{
+      padding-right: 150px;
+    }
+    .col-img{
+        order: 1;
+    }
+    .col-img{
+        padding-top: 20px;
+    }
+
+}
