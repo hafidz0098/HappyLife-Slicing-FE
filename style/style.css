@@ -32,3 +32,47 @@ button .navbar-toggler-icon{
 .navbar-collapse{
     margin-top: 20px;
 }
+
+.hero{
+    min-height: 100vh;
+    background-color: #182231;
+}
+
+.hero h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px !important;
+}
+
+.hero p{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.hero .container{
+    padding-top: 200px;
+}
+
+.hero button{
+    margin-top: 30px;
+}
+
+.btn-custom{
+    background-color: #24CAE5;
+    font-weight: bold;
+    color: #fff;
+}
+
+.col-img{
+    padding-left: 150px;
+}
+
+.col-img img{
+    width: 80%;
+}
+.col-text{
+    padding-top: 50px;
+}
+.btn-custom:hover{
+    color: #fff;
+}
