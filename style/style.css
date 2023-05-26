@@ -134,6 +134,114 @@ button .navbar-toggler-icon{
     align-items: center;
 }
 
+.team{
+  background: #E8F1F5;
+}
+
+.team .member{
+  position: relative;
+  padding: 30px;
+  box-shadow: 0px 2px 5px black;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.team .member .teampic {
+  overflow: hidden;
+  width: 200px;
+  border-radius: 50%;
+  
+}
+
+.team .member .member-info{
+  padding-left: 30px;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #182231;
+}
+
+.team .member .span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .member .span::after{
+  content: "";
+  position: absolute;
+  display: 50px;
+  height: 2px;
+  background: black;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member p{
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team .member .social{
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #D4D4D4;
+  border-radius: 50%;
+}
+
+.team .member .social a i{
+  color: #182231;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover{
+  background: #182231
+}
+
+.team .member .social a:hover i{
+  color:  #D4D4D4;;
+}
+
+.team .member .social a+a{
+  margin-left: 8px;
+}
+
+section{
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-tittle{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+.section-tittle h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  color: #182231;
+}
+
 .mt-70{
     margin-top: 60px !important;
   }
