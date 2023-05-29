@@ -78,7 +78,7 @@ button .navbar-toggler-icon{
 }
 
 .kenali{
-    min-height: 75vh;
+    min-height: 80vh;
     background-color: #D4D4D4 ;
 }
 
@@ -95,6 +95,7 @@ button .navbar-toggler-icon{
 
 .card-title{
     text-align: center;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -239,17 +240,22 @@ button .navbar-toggler-icon{
     margin-top: 60px !important;
   }
 
-  .artikel{
+.artikel{
     min-height: 100vh;
     padding: 50px;
 }
 
-.container{
-    padding: 8px;
-    margin-top: 8px;
+.artikel-content{
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4;
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
 }
 
-.title-section h1{
+
+/* .title-section h1{
     text-align: center;
     font-weight: bold;
     padding-top: 50px;
@@ -281,12 +287,7 @@ button .navbar-toggler-icon{
   font-size: 14px;
   padding-top: 12px;
   padding-bottom: 12px;
-}
-
-.btn-artikel{
-  background-color: #24CAE5;
-  color: #fff;
-}
+} */
 
   .footer {
     font-size: 14px;
@@ -406,14 +407,20 @@ button .navbar-toggler-icon{
         margin-bottom: 20px;
     }
 
-    .artikel{
+    /* .artikel{
       margin-bottom: 40px;
+    } */
+
+    .title-row{
+      padding-top: 60px;
+      padding-bottom: 60px;
     }
+
 
     .footer .container{
       padding-top: 50px;
       
-    }
+    }    
 
     .card-img img{
       height: 50%;
