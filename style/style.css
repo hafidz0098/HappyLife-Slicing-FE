@@ -239,6 +239,55 @@ button .navbar-toggler-icon{
     margin-top: 60px !important;
   }
 
+  .artikel{
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.container{
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.title-section h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 28px;
+    padding-bottom: 35px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: rgba(255, 255, 255, 0.2);
+}
+
+.card-img-top{
+  height: 230px;
+}
+
+.card-body{
+  border-radius: 8px;
+}
+
+.card-title{
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.card-text{
+  text-align: justify;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.btn-artikel{
+  background-color: #24CAE5;
+  color: #fff;
+}
+
   .footer {
     font-size: 14px;
     background-color: #182231;
